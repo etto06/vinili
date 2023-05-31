@@ -13,11 +13,6 @@ export const menu = [
     { title: 'Trasparenza', url: '/trasparenza' },
 ]
 
-export const header = <Logos
-    logoUrl="https://archive.donboscosandona.it/img/ck/96448406eee9201111c084f9f70330b052012ac5.png"
-    sponsorUrl="https://archive.donboscosandona.it/img/ck/20b01b69c5c5586ea921a398e557a7767d004959.png"
-    color="#FFFFFF"
-/>
 
 const menuFooter = [
     { title: 'Informatico', url: '/informatico' },
