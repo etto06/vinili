@@ -15,10 +15,9 @@ export const menu = [
 
 
 const menuFooter = [
-    { title: 'Informatico', url: '/informatico' },
-    { title: 'Energie', url: '/energie' },
-    { title: 'Elettrico', url: '/elettrico' },
-    { title: 'Trasparenza', url: '/trasparenza' },
+    { title: 'I nostri vinili', url: '/vinile' },
+    { title: 'Chi siamo', url: '/siamo' },
+    { title: 'Home', url: '/' },
 ]
 
 const socials = [
@@ -29,10 +28,12 @@ const socials = [
 ]
 
 let images = [
-    { title: '', imageUrl: 'https://source.unsplash.com/random', },
-    { title: '', imageUrl: 'https://source.unsplash.com/random', },
-    { title: '', imageUrl: 'https://source.unsplash.com/random', },
-    { title: '', imageUrl: 'https://source.unsplash.com/random', },
+    { title: '', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_hs2ntr2bxMWrznDXFabAGKzNuEqH4zJNRayiPjtPvaSiw5zvnY8SiMbJ4-t8sQY9To4&usqp=CAU', },
+    { title: '', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMCzzjO4DzO74reWiiVtecwxet4UPQfY2NdQ&usqp=CAU', },
+    { title: '', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXqCODAV09dgZyKpF1J20bsHAdnC05z-A-6w&usqp=CAU', },
+    { title: '', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO4nszWjW0WfKyVfBLh8eu1o3SbCJ6Le84UeZ01s_PCt1daYsgWcFr2HW3iEoKVOb8-IA&usqp=CAU', },
+    { title: '', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPgeraPP6NsqWykuyaTUhgY-702lUZxaDzg&usqp=CAU', },
+    { title: '', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdN5DCnVZXUBSGztIzJj3A2zt_k5CgYii9bg&usqp=CAU', },
 ]
 
 export const footer = <Footer
@@ -41,8 +42,8 @@ export const footer = <Footer
     opacitycolor="1"
     opacity={1}
     title1="About Us"
-    description1="Footer che apparirà sul fondo di tutte le pagine del sito. Sarà possibile passare al componente un'immagine di sfondo opzionale oppure un colore di sfondo. L'attributo opaciy permetterà di sovrapporre all'immagine un Box con il colore di sfondo e un'opacità regolabile.
-La prima colonna sarà destinata a un testo descrittivo, la seconda ai social, la terza a un menù di navigazione grafico (che porta ad es. ai settori).
+    description1="Quanto costa una scuola di musica? 
+    Ogni scuola di musica applica dei prezzi che possono variare in base alla tipologia di servizi, ma in generale le scuole di musica applicano una tariffa per i corsi che va dai 20 ai 30 euro all'ora. 
 "
     title2="Social Feed"
     socials={socials}

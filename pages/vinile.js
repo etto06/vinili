@@ -9,7 +9,7 @@ import Paragraph from "components/Paragraph";
 // 1. import `ChakraProvider` component
 import { ChakraProvider } from "@chakra-ui/react";
 let menu = [
-  { title: "I nostri vinili", url: "/vinili" },
+  { title: "I nostri vinili", url: "/vinile" },
   { title: "Chi siamo", url: "/siamo" },
   { title: "Contatti", url: "/contatti" },
 ];
@@ -96,47 +96,7 @@ export default function Pagina({ home }) {
         menu={menu}
         height={800}
       />
-      <Carousel slides={slides} maxWidth={false}></Carousel>
-      <Features
-        title="Why our product is the best"
-        features={features}
-        cardWidth={4}
-      />
-      <Products
-        title="Some of Our Awesome Products"
-        products={products}
-        cardWidth={4}
-        borderRadius="10px"
-      />
-      <Paragraph
-        title="La nostra attività"
-        subtitle="La fondazione"
-        //topImageUrl="https..."
-        avatarImageUrl="https://www.rockon.it/wp-content/uploads/2012/07/skardy.jpg"
-        //leftImageUrl="https..."
-        //rightImageUrl="https..."
-        backgroundImageUrl="https://cdn.dday.it/system/uploads/news/main_image/18800/main_aper.jpg"
-        //backgroundColor="#225533"
-        opacity={0.8}
-        blur="0.2rem"
-        color="white"
-        columnCount={1}
-        maxWidth="lg"
-        sx={{}}
-      >
-        Ami la musica e vorresti avvicinarti a questo appassionante mondo? Sei
-        un musicista alle prime armi e ti piacerebbe perfezionare la tua
-        tecnica? Oppure suoni da sempre, ma pensi che nella vita non si smetta
-        mai di imparare? Sono numerose le possibilità per coltivare con enorme
-        entusiasmo questa grande e coinvolgente passione. Le alternative sono
-        veramente molteplici: scuole di musica che propongono ogni anno numerose
-        iniziative, i più svariati corsi di musica dove apprendere ed imparare
-        tecniche e nozioni nuove, scuole di musica e canto rinomate in tutto il
-        Paese e - infine - insegnanti di musica che, con impegno e preparazione,
-        sapranno affiancarti in questa splendida avventura. C'è solo l'imbarazzo
-        della scelta per iniziare ad intraprendere questo percorso con amore ed
-        impegno.
-      </Paragraph>
+      
     </Layout>
   );
 }
